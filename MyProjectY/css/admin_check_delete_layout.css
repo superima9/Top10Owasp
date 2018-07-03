@@ -1,0 +1,61 @@
+.receptacle-init{
+  margin-top: 5px;
+  border: 3px solid white;
+}
+form {
+  margin-left: 20%;
+  border: 3px solid;
+  background-color: white;
+  width: 60%;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #b8860b;
+  box-sizing: border-box;
+}
+
+button {
+  width: 15%;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #b8860b;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+.image-receptacle {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.receptacle-title {
+  background-color: #b8860b;
+  padding-top: 1px;
+  color: black;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.rec-init {
+  text-align: center;
+}
+
+
+.g-recaptcha{
+  margin-left: 300px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

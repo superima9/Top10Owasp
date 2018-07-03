@@ -1,0 +1,33 @@
+.nav-recepticle{
+  height: 53px;
+  background-color: #b8860b;
+  overflow: hidden;
+}
+
+.navigalto a{
+  float: left;
+  color: black;
+  text-align: center;
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: serif;
+}
+
+.navigalto a:hover {
+  color: white;
+  border-bottom: thick solid yellow;
+  box-shadow: 0px 0px 10px 5px yellow;
+}
+
+.navigalto .responsive {
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+.navigalto .responsive a {
+  display: block;
+  text-align: left;
+  float: none;
+}

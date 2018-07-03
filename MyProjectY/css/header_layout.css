@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+}
+
+.receptacle-header{
+  display: block;
+  width: auto;
+  display: flex;
+  height: auto;
+  background-color: #b8860b;
+
+}
+
+.rec-header{
+  width: auto;
+  height: 85px;
+  margin: 10px;
+}
+
+h1{
+  font-family: serif;
+  color: black;
+  font-size: 3rem;
+  line-height: 3rem;
+}

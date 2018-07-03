@@ -1,0 +1,35 @@
+.title {
+  background-color: #fa1a1a;
+  padding-top: 1px;
+  border: 3px solid #303030;
+}
+
+form {
+  margin-top: 20px;
+  background-color: white;
+  border: 3px solid #303030;
+  width: 75%;
+  margin-left: 170px;
+  text-align: center;
+}
+
+.receptacle-init {
+  margin-top: 15px;
+}
+
+.button, .button{
+  width: 15%;
+  text-decoration: none;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #FF1A1A;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 210px
+}

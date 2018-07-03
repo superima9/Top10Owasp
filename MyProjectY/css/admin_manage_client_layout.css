@@ -1,0 +1,43 @@
+body{
+  width: 100%;
+}
+
+table {
+  width: auto;
+  border-spacing: 8;
+  background-color: #303030;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 10px solid transparent;
+  height: 22px;
+  transition: all .6s;
+}
+
+th{
+  background: #b8860b;
+  font-weight: bold;
+}
+td{
+  background: white;
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+   background: #E4E4E4;
+}
+
+tr:nth-child(odd) td {
+  background: #FDFDFD;
+}
+
+tr td:hover{
+  background: #888; color: #FFF;
+}
+
+.selected {
+  background-color: red;
+  color: #b8860b;
+}

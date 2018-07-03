@@ -1,0 +1,46 @@
+.receptacle-init{
+  margin-left: 15%;
+  margin-top: 5px;
+  width:75%;
+  border: 3px solid black;
+  height: 300px;
+}
+.receptacle-title {
+  background-color: #b8860b;
+  padding-top: 1px;
+  border-bottom: 3px solid;
+  color: black;
+  width:100%;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+
+.rec-init {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+.text {
+  text-align: center;
+}
+
+
+.button {
+  width: 15%;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #b8860b;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.button:hover {
+    opacity: 0.9;
+}

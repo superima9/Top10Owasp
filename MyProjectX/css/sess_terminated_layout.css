@@ -1,0 +1,47 @@
+.topnav{
+  height: 13px;
+  background: #303030;
+  overflow: hidden;
+}
+
+.receptacle-background{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow: auto;
+  width: auto;
+  background: linear-gradient(rgba(255, 255, 0, 0), rgba(100, 255, 0, 0.5));
+}
+
+.receptacle-init {
+  display: -webkit-flex;
+  display: flex; /*dispay inline flex two display features>*/
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 820px;
+  height: 555px;
+  margin-bottom: 30px
+  margin-top: auto;
+  margin-left: 360px;
+  margin-right: auto;
+  /*background: linear-gradient(rgba(255, 255, 0, 0), rgba(100, 255, 0, 0.5));
+  border: 2px solid yellow;*/
+}
+
+.rec-init{
+  width: 400px;
+  height: auto;
+  margin: 5px;
+}
+
+img[id="link"]{
+  margin-top: 18px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 50px;
+  height: 70px;
+
+}

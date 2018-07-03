@@ -1,0 +1,242 @@
+h2[id = form_title]{
+  text-align: center;
+  background-color: #b8860b;
+}
+
+.receptacle-init{
+  border: 3px solid #303030;
+  text-align: center;
+  width: 75%;
+  padding-top: 25px;
+  margin-left: 160px;
+}
+
+#title {
+  margin-top: 10px;
+  margin-bottom: -3px;
+  padding-top: 0px;
+  border: 3px solid #303030;
+  background-color: #b8860b;
+}
+
+#title-init{
+  width: 75%;
+}
+
+#title-init h4 {
+  text-align: center;
+  padding-left: 270px;
+}
+
+#to{
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+#myBtn, #myBtn1{
+  width: 15%;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #b8860b;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+#myBtn2{
+  width: 25%;
+  text-align: center;
+  padding-right: 15px;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #b8860b;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.button{
+  width: 25%;
+  text-align: center;
+  padding-right: 15px;
+  padding:15px 20px;
+  margin-top: : 10px;
+  margin-bottom: 10px;
+  background-color: #b8860b;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,2);
+  background-color: rgba(8,0,8,0.8);
+  margin-top: 100px;
+}
+
+.box-receptacle{
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  border: 3px solid #303030;
+  width: 78%;
+  box-shadow: 0 7px 8px 39px rgba(0, 0, 0, 0.2), 0 7px 40px 0 rgba(0, 0 , 0, 0.14);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1.1s;
+  animation-name: animatetop;
+  animation-duration: 1.1s;
+}
+
+.box1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,2);
+  background-color: rgba(8,0,8,0.8);
+  margin-top: 35px;
+}
+
+.box-receptacle1{
+  position: relative;
+  background-color: #e4e4e4;
+  margin: auto;
+  height: 40%;
+  border: 3px solid #303030;
+  padding: 0;
+  width: 60%;
+  box-shadow: 0 7px 8px 39px rgba(0, 0, 0, 0.2), 0 7px 40px 0 rgba(0, 0 , 0, 0.14);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1.1s;
+  animation-name: animatetop;
+  animation-duration: 1.1s;
+}
+@-webkit-keyframes animatetop{
+  from {top: -300px; opacity:0.8}
+  to {top:0;opacity:1}
+}
+
+@keyframes animatetop{
+  from {top: -300px; opacity:0.8}
+  to {top:0;opacity:1}
+}
+.shut {
+  color: black;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.shut:hover,
+.shut:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.box-header{
+  padding: 5px 20px;
+  background-color: #b8860b;
+  border: 5px solid #303030;
+  color: black;
+}
+
+.box-body {
+  padding: 5px 19px;
+  background-color: white;
+  border: 7px solid #303030;
+}
+
+
+.shut1 {
+  color: black;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.shut1:hover,
+.shut1:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.box-header1{
+  padding: 5px 20px;
+  background-color: #b8860b;
+  border: 5px solid #303030;
+  color: black;
+}
+
+.box-body1 {
+  padding: 5px 19px;
+  background-color: white;
+  border: 7px solid #303030;
+}
+
+.rec-init-rec input[type=text] {
+  width: 100%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+
+table {
+  width: auto;
+  border-spacing: 8;
+  background-color: #303030;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+td, th {
+  border: 10px solid transparent;
+  height: 22px;
+  transition: all .6s;
+}
+
+th{
+  background: #b8860b;
+  font-weight: bold;
+}
+td{
+  background: white;
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+   background: #E4E4E4;
+}
+
+tr:nth-child(odd) td {
+  background: #FDFDFD;
+}
+
+tr td:hover{
+  background: #888; color: #FFF;
+}
+
+.selected {
+  background-color: red;
+  color: #b8860b;
+}

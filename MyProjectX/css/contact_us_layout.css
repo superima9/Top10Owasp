@@ -1,0 +1,72 @@
+body, html{
+  height: 100%;
+  background: #FAFAFA;
+}
+
+.receptacle-background{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow: auto;
+  width: auto;
+  background: #FAFAFA;
+}
+
+
+.receptacle-init {
+  display: -webkit-flex;
+  display: flex; /*dispay inline flex two display features>*/
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 56%;
+  height: 500px;
+  margin-bottom: 0px;
+  margin-top: 5px;;
+  margin-left: 360px;
+  margin-right: auto;
+  background: white;
+  border: 2px solid black;
+}
+
+.rec-init{
+  margin-top: 10px;
+  width: 400px;
+  height: 200px;
+  margin-left: 14px;
+  border: 3px solid black;
+
+}
+
+.rec-init[id="move"]{
+  margin-top: -5px;
+  height: 270px;
+}
+
+h1[id= "contact-details"]{
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #303030;
+  color: #ff1a1a;
+  line-height: normal;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+th[id = "rec-table-header"]{
+  padding-left: 0px;
+  color: black;
+}
+
+table {
+  margin-top: -15px;
+}
+p[id = "contact-details"]{
+  margin-top: -15px;
+  margin-left: 20px;
+}

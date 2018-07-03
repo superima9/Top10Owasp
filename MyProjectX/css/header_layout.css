@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+}
+
+.flex-container-header{
+  display: -webkit-flex;
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: #303030;
+
+}
+
+.flex-item-header{
+  width: auto;
+  height: 85px;
+  margin: 10px;
+}
+
+h1{
+  font-family: serif;
+  color: Black;
+  font-size: 3rem;
+  line-height: 4rem;
+
+}
