@@ -1,0 +1,39 @@
+The two images contains two identical weebsite, one vulnerable (with the black background) and one with secure guidelines of the top 10 owasp. 
+
+1. Download any Virtual box where the virtual machine is going to run (IE: Oracle VirtualBox).
+
+2. Import the image of both virtual machines named "UbuntuXDesktop" and "UbuntuYDesktop" into the VirtualBox.
+
+3. Power the machine on and you will be prompt with login and password:
+   
+   username: alice
+   password: Top10Owasp!  
+
+4. To power on the Apache run the following command:
+
+   sudo /opt/lampp/lampp start
+
+5. Open Firefox web browser and type the following into the url:
+
+   localhost/MyProjectX.indexx.php
+
+   localhost/MyProjectY.index.php
+
+6. For the use of Recaptcha in the gold website it is required to register to recaptcha with a google account and replace the secret keys with the one 
+   provided to you at the moment you finish your registration process.
+
+   See tutorials on site: https://support.squarespace.com/hc/en-us/articles/115013193528-Adding-Google-reCAPTCHA-to-Form-Blocks
+
+7. Login credentials: 
+
+   administrator: Password321
+
+   clients: Password321 or Password123
+
+8. To view customer and admin credentials such as username and other information access to the GUI phpMyAdmin by typing into the URL:
+
+   localhost/phpmyadmin
+
+9. Play with it and see the differences in the code.
+
+
